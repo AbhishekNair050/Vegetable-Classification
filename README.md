@@ -69,7 +69,7 @@ pandas==1.1.5
 ipywidgets==7.6.5
 etc.
 ```
-
+Upload kaggle.json and run the setup section, it will set the dataset, roboflow api key is included in the notebook.
 The trained classification model file is also included as `final_model.h5`.
 
 ## Results
