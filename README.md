@@ -81,7 +81,6 @@ Some ways to improve the system further:
 
 - Increase classification accuracy with more training data, hyperparameter tuning etc. 
 - Support detection and counting of more vegetable categories.
-- Improve nutrition estimates using a larger nutrition dataset.
 - Deploy the GUI as a web application.
 - Optimize the object detector for faster inference.
 
