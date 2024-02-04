@@ -8,8 +8,8 @@ The goals of this project are:
 
 - Accurately classify images of vegetables into 15 categories
 - Detect and count individual instances of vegetables
-- Estimate total purchase quantities needed for meal prep
-- Calculate nutrition information like weights for planning
+- Estimate total purchase quantities needed for easy shopping
+- Calculate information like weight from the image which would allow the user to decide the quantity of the vegetable
 - Provide an interactive GUI for easy use
 
 The system combines computer vision techniques like convolutional neural networks and object detection with a GUI for usability.
