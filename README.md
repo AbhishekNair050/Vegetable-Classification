@@ -54,6 +54,7 @@ bean: 1
 carrot: 1
 tomato: 4
 ```
+![WhatsApp Image 2024-02-04 at 19 52 15_7df03643](https://github.com/AbhishekNair050/Vegetable-Classification/assets/114457983/f7f06af3-d057-4b03-81fa-ddf48de63c3b)
 
 The GUI enables easy tracking of quantities by updating the dictionary as new images are processed.
 
