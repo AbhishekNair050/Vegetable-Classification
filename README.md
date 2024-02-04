@@ -28,9 +28,34 @@ The classifier uses a MobileNetV2 model pretrained on ImageNet. The base layers 
 
 For object detection, a Roboflow Faster R-CNN model trained on a separate dataset is used.
 
+Got it, I will update the Usage section of the README to clarify how the vegetable list input and image uploading works:
+
 ## Usage
 
-The GUI allows easy interactive usage with ipywidgets. Users can enter a list of vegetables and quantities to track. Then on submitting an image path, the classifier will identify the vegetables present. The object detector counts the instances and updates the remaining quantities needed. The total weight is also calculated using average weights from nutritional data.
+The GUI allows entering a list of vegetables and quantities needed for Shopping. For example:
+
+```
+bean:3,carrot:2,tomato:4
+```
+
+This initializes a quantity dictionary with the items and amounts specified.
+
+After entering an image path and submitting, the classifier identifies the vegetables and the object detector counts the instances. The counts are subtracted from the quantity dictionary to update the remaining amounts needed. 
+
+For example, if the input image contained:
+
+- 2 beans
+- 1 carrot
+
+After submitting, the updated dictionary would be:
+
+```
+bean: 1
+carrot: 1
+tomato: 4
+```
+
+The GUI enables easy tracking of quantities by updating the dictionary as new images are processed.
 
 ## Installation
 
