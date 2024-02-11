@@ -54,7 +54,11 @@ bean: 1
 carrot: 1
 tomato: 4
 ```
-![WhatsApp Image 2024-02-04 at 19 52 15_7df03643](https://github.com/AbhishekNair050/Vegetable-Classification/assets/114457983/f7f06af3-d057-4b03-81fa-ddf48de63c3b)
+
+
+https://github.com/AbhishekNair050/Vegetable-Classification/assets/114457983/7546e7e6-2b2e-4a96-828b-de36212bad8b
+
+
 
 The GUI enables easy tracking of quantities by updating the dictionary as new images are processed.
 
@@ -82,7 +86,6 @@ Some ways to improve the system further:
 
 - Increase classification accuracy with more training data, hyperparameter tuning etc. 
 - Support detection and counting of more vegetable categories.
-- Deploy the GUI as a web application.
 - Optimize the object detector for faster inference.
 
 Please feel free to work on any of these ideas by forking and improving the project!
